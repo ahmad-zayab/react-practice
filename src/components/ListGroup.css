@@ -1,0 +1,9 @@
+.list-group{
+  padding: 20px;  
+  border: 8px solid rgb(205, 231, 255);
+  background-color: #f8f9fa;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 12px;
+} 
