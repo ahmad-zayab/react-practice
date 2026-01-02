@@ -4,7 +4,6 @@ import Footer from './components/footer.jsx';
 import ListGroup from './components/ListGroup';
 import Forms from './components/formsOne.jsx';
 import Create from './componentsCRUD/Create.jsx';
-import Edit from './componentsCRUD/Edit.jsx';
 function App() {
     const List = ['Lahore', 'Karachi', 'Islamabad', 'Bahawalpur', 'Multan'];
   return (
@@ -15,7 +14,6 @@ function App() {
       <Forms/>
       <Footer/> */}
       <Create/>
-      <Edit/>
     </div>  
   );
 }
