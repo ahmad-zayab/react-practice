@@ -9,7 +9,7 @@ const Create = () => {
   const [address, setAddress] = useState("");
 const [editIndex, setEditIndex] = useState(null);
 
-  let [data, setData] = useState([...record])
+  let [data, setData] = useState([...record]);
 
   const handleSubmit = (e) => {
   e.preventDefault();
@@ -91,7 +91,7 @@ const handleUpdate = (index) => {
       </form>
 
       <hr />
-<Result items={data} onDelete={deleteItem} onUpdate={handleUpdate} />
+{editIndex !== null ?null:<Result items={data} onDelete={deleteItem} onUpdate={handleUpdate} />}
 
       {/* <h3>Submitted Data</h3>
       <ul>

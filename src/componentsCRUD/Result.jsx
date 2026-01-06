@@ -30,7 +30,7 @@ return (
                                 <td>
                                      <div className="action-buttons">
                                     <button className="btn btn-outline-secondary" onClick={() => onUpdate(index)}>Update</button>
-                                    &nbsp; &nbsp;
+                               
                                     <button className="btn btn-outline-danger" onClick={() => onDelete(index)}>Delete</button>
                                     </div>
                                 </td>
