@@ -24,6 +24,7 @@ return (
       { items.map((item, index) => {
                         return (
                             <tr key={index}>
+                              <td>  <img src="/imageofanime.jpg" alt="no image" width="80" height="60" /></td>
                                 <td>{item.name}</td>
                                 <td>{item.age}</td>
                                 <td>{item.address}</td>

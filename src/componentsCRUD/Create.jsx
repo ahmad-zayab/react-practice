@@ -2,7 +2,6 @@ import { useState } from "react";
 import "./Create.css";
 import Result from "../componentsCRUD/Result";
 import record from "./record.json";
-import fs from 'fs';
 const Create = () => {
   const [name, setName] = useState("");
   const [age, setAge] = useState("");
